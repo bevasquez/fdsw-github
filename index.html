@@ -29,13 +29,15 @@
     </head>
 
     <body>
-        <nav class="navbar navbar-expand-lg bg-white text-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light text-dark bg-white fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
-                    <img src="assets/img/mi_logo2.png" class="img-fluid" width="180ox">
-                    </a>
+                    <img src="assets/img/mi_logo2.png" class="img-fluid"
+                        width="150px">
+                </a>
                 <button class="navbar-toggler" type="button"
                     data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -75,22 +77,24 @@
                         Intervención fonoaudiológica <br> y atención temprana
                     </h1>
                     <div class="mb-5 pb-5">
-                        <a class="btn btn-lg btn-info text-light"href="#Contacto">Contacto</a>
+                        <a class="btn btn-lg btn-info text-light"
+                            href="#Contacto">Contacto</a>
                     </div>
                 </div>
             </div>
         </header>
 
         <!--SECTION SOBRE MÍ-->
-        <section id="Sobre-mí">
-            <h2 class="display-4 fw-bold text-center my-4">Sobre mí</h2>
-            <table class="m-5">
-                <tr>
-                    <td>
-                        <img src="assets/img/foto_presentacion.jpeg" class="rounded-circle" alt="foto presentación"
-                            width="100%"> 
-                    </td>
-                    <td>
+        <section id="Sobre-mí" class="my-5 py-5">
+            <h2 class="display-4 fw-bold text-center text-secondary m-5 p-4">Sobre mí</h2>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-4">
+                        <img src="assets/img/foto_presentacion.jpeg"
+                            class="rounded-end" alt="foto presentación"
+                            width="100%">
+                    </div>
+                    <div class="col-12 col-md-8">
                         <p class="my-5 text-center">
                             ¡Hola! Soy principiante en programación, desarrollo
                             web y fonoaudióloga con un firme compromiso de
@@ -99,10 +103,12 @@
                             mi experiencia labroral, formación académica y mis
                             primeros proyectos en desarrollo web con Desafío
                             Latam.
-                        </p></td>
-                </tr>
-            </table>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
+
         <hr id="Educación" class="my-5">
         <!--SECTION 1 EDUCACIÓN-->
         <section class="container text-center py-5">
@@ -193,9 +199,12 @@
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">Desafío HTML</h5>
                                 <p class="card-text">
-                                    Creación de un Curriculum vitae utilizando HTML.
+                                    Creación de un Curriculum vitae utilizando
+                                    HTML.
                                 </p>
-                                <a class="btn btn-outline-info" href="https://github.com/bevasquez/primer_desafio" target="_blank">Ver más</a>
+                                <a class="btn btn-outline-info"
+                                    href="https://github.com/bevasquez/primer_desafio"
+                                    target="_blank">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -207,9 +216,12 @@
                                 <h5 class="card-title fw-bold">Landing page
                                     utilizando CSS</h5>
                                 <p class="card-text">
-                                    Página de tienda con catálogo, aplicando CSS.
+                                    Página de tienda con catálogo, aplicando
+                                    CSS.
                                 </p>
-                                <a class="btn btn-outline-info" href="https://github.com/bevasquez/segundo_desafio" target="_blank">Ver más</a>
+                                <a class="btn btn-outline-info"
+                                    href="https://github.com/bevasquez/segundo_desafio"
+                                    target="_blank">Ver más</a>
                             </div>
                         </div>
                     </div>
@@ -218,18 +230,21 @@
                             <div class="image-top"
                                 style="background-image: url(assets/img/desafio3.png)"></div>
                             <div class="card-body">
-                                <h5 class="card-title fw-bold">Alineando contenido
+                                <h5 class="card-title fw-bold">Alineando
+                                    contenido
                                     con Flex</h5>
                                 <p class="card-text">
                                     Replicar maqueta aplicando conocimiento de
                                     display flex.
                                 </p>
-                                <a class="btn btn-outline-info" href="https://github.com/bevasquez/tercer_desafio" target="_blank">Ver más</a>
+                                <a class="btn btn-outline-info"
+                                    href="https://github.com/bevasquez/tercer_desafio"
+                                    target="_blank">Ver más</a>
 
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col-12 col-sm-4 py-2">
                         <div class="card">
                             <div class="image-top"
@@ -238,14 +253,17 @@
                                 <h5 class="card-title fw-bold">Proyecto con
                                     Bootstrap</h5>
                                 <p class="card-text">
-                                    Creación de página utilizando herramientas de
+                                    Creación de página utilizando herramientas
+                                    de
                                     Bootstrap.
                                 </p>
-                                <a class="btn btn-outline-info" href="https://github.com/bevasquez/cuarto_desafio" target="_blank">Ver más</a>
+                                <a class="btn btn-outline-info"
+                                    href="https://github.com/bevasquez/cuarto_desafio"
+                                    target="_blank">Ver más</a>
                             </div>
                         </div>
                     </div>
-    
+
                     <div class="col-12 col-sm-4 py-2">
                         <div class="card">
                             <div class="image-top"
@@ -253,14 +271,17 @@
                             <div class="card-body">
                                 <h5 class="card-title fw-bold">CV en Github</h5>
                                 <p class="card-text">
-                                    Personalizar CV clonando repositorio de GitHub.
+                                    Personalizar CV clonando repositorio de
+                                    GitHub.
                                 </p>
-                                <a class="btn btn-outline-info" href="https://github.com/bevasquez/fdsw-github" target="_blank">Ver más</a>
+                                <a class="btn btn-outline-info"
+                                    href="https://github.com/bevasquez/fdsw-github"
+                                    target="_blank">Ver más</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>  
+            </div>
         </section>
 
         <section id="Contacto" class="container my-5">
